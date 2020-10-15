@@ -1,4 +1,88 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-color:rgb(27, 4, 241) ;
+    overflow: hidden;
+}
+div{
+    margin: 250px 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div h1{
+    font-size: 60pt;
+    font-weight: 900;
+    color: aliceblue;
+    
+}
+#t1{
+    animation: texto 1s;
+    position: relative;
+    
+}
+#t2{
+    animation: texto 1.5s;
+    position: relative;
+}
+#t3{
+    animation: texto 1.7s;
+    position: relative;
+}
+#t4{
+    animation: texto 1.9s;
+    position: relative;
+}
+#t5{
+    animation: texto 2s;
+    position: relative;
+}#t6{
+    animation: texto 2.5s;
+    position: relative;
+}#t7{
+    animation: texto 2.7s;
+    position: relative;
+}#t8{
+    animation: texto 2.9s;
+    position: relative;
+}#t9{
+    animation: texto 3s;
+    position: relative;
+}#t10{
+    animation: texto 3.5s;
+    position: relative;
+}#t11{
+    animation: texto 3.8s;
+    position: relative;
+}
+#t12{
+    animation: texto 4s;
+    position: relative;
+}
+#t13{
+    animation: texto 4.5s;
+    position: relative;
+}
+#t14{
+    animation: texto 4.8s;
+    position: relative;
+}
+#t15{
+    animation: texto 5s;
+    position: relative;
+}
+@media(max-width:768px){
+    div h1{
+        font-size: 29pt;
+        font-weight: 900;
+        color: aliceblue;
+        
+    }
+}
+@keyframes texto{
+    from {left: 850px;}
+    to {left: 0px;}
 }
