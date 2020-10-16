@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #014;
+}
+.cir{
+    width: 150px;
+    height: 150px;
+    border: rgb(3, 3, 3) solid 8px;
+   margin: 150px 0 150px;
+    border-radius: 50%;
+    position: relative;
+
+}
+.cir{
+    animation: roda 6s infinite ;
+}
+.cir1{
+    width: 150px;
+    height: 150px;
+    border: rgb(7, 4, 4) groove 8px;
+   margin: 150px 0 150px;
+    border-radius: 50%;
+    position: relative;
+    animation: roda1 5s infinite ;
+
+}
+@keyframes roda{
+    from{transform: rotate(10deg);
+        transform-origin: 50% 0% 50%;
+    }
+    to{transform: rotate(360deg);
+        transform-origin: 40% 190%;}
+
+    0%{background-color: yellow;}
+    30%{background-color: red;}
+    50%{background-color: blue;}
+    60%{background-color: green;}
+    100%{background-color: yellow;}
+}
+@keyframes roda1{
+    from{transform: rotate(10deg);
+        transform-origin: 40% 0% 160%;
+        
+    }
+    to{transform: rotate(360deg);
+        transform-origin: 40% 260%;}
+
+    0%{background-color: yellow;}
+    30%{background-color: red;}
+    50%{background-color: blue;}
+    60%{background-color: green;}
+    100%{background-color: yellow;}
+}
+@media(max-width:640px){
+    .cir, .cir1 {
+        width: 90px;
+        height: 90px;
+    }
+}
