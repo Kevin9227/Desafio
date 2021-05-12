@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.roda{
+    width: 450px;
+    height: 350px;
+    border: 5px solid black;
+    background-color: #069;
+    animation: bate 5s infinite;
+}
+/*@keyframes bate {
+    from{transform:perspective(10deg);
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}*/
